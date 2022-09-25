@@ -1,0 +1,32 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "large"
+  },
+  "stickers" : [
+    {
+      "filename" : "IzhitsaSticker1.sticker"
+    },
+    {
+      "filename" : "IzhitsaSticker2.sticker"
+    },
+    {
+      "filename" : "IzhitsaSticker3.sticker"
+    },
+    {
+      "filename" : "IzhitsaSticker4.sticker"
+    },
+    {
+      "filename" : "IzhitsaSticker5.sticker"
+    },
+    {
+      "filename" : "IzhitsaSticker6.sticker"
+    },
+    {
+      "filename" : "IzhitsaSticker7.sticker"
+    }
+  ]
+}
