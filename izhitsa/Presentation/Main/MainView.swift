@@ -40,16 +40,30 @@ struct MainView: View {
                         cornerRadius: 15,
                         style: .continuous
                     )
-                    .stroke()
-                    .foregroundColor(.gray)
+                    .stroke(Color.gray.opacity(0.5), lineWidth: 1)
+                )
+                .clipShape(
+                    RoundedRectangle(
+                        cornerRadius: 15,
+                        style: .continuous
+                    )
                 )
                 
                 TextField(isPreRevolutionary ? "Провѣрьте вводъ" : "Проверьте ввод", text: $text, axis: .vertical)
                     .lineLimit(...5)
-                    .textFieldStyle(.roundedBorder)
                     .autocorrectionDisabled()
                     .textInputAutocapitalization(.sentences)
                     .font(isSystemFontAndSize ? .body : Config.customBodyFont)
+#if os(iOS)
+                    .padding(10)
+                    .overlay(
+                        RoundedRectangle(
+                            cornerRadius: 10,
+                            style: .continuous
+                        )
+                        .stroke(Color.gray.opacity(0.5), lineWidth: 1)
+                    )
+#endif
                 
                 Spacer()
             }
