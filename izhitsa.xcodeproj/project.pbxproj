@@ -701,7 +701,7 @@
 				DEVELOPMENT_TEAM = 9FJ6F4TT5T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stickers/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Stickers;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ижица";
 				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = software.kanunnikoff.izhitsa.Stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -720,7 +720,7 @@
 				DEVELOPMENT_TEAM = 9FJ6F4TT5T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stickers/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Stickers;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ижица";
 				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = software.kanunnikoff.izhitsa.Stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
